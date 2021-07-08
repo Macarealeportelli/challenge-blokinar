@@ -1,0 +1,8 @@
+const InfectedPerson=()=>{
+
+    return(
+        <>
+        
+        </>
+    )
+};
