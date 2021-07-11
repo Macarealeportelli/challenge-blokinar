@@ -105,6 +105,7 @@ export default function TableInfectados() {
           </TableRow>
         </TableHead>
         <TableBody>
+          
           {rows.map((row) => (
             <StyledTableRow key={row.id} style={{ color: !row.live ? 'black' : 'red' }}>
               <StyledTableCell component="th" scope="row">
