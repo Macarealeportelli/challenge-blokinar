@@ -1,14 +1,15 @@
 import useFetch from "../hooks/useFetch";
+import TablaInfectados from "../utils/TablaInfectados";
 
 
 const CasosPositivos =()=>{
 
-    const infectados = useFetch();
+    // const infectados = useFetch();
 
     return (
         <>
-        <h1>Hola soy el listado de casos</h1>
-        {infectados.map((persona)=><h6>{persona.first_name}</h6>)}
+        <h3>Listado de Casos Positivos</h3>
+        <TablaInfectados/>
 
 
         
