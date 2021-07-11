@@ -1,5 +1,5 @@
 import useFetch from "../hooks/useFetch";
-import TablaInfectados from "../utils/TablaInfectados";
+import TablaInfectados2 from "../utils/TablaInfectados2";
 
 
 const CasosPositivos =()=>{
@@ -9,8 +9,8 @@ const CasosPositivos =()=>{
     return (
         <>
         <h3>Listado de Casos Positivos</h3>
-        <TablaInfectados/>
-
+        <TablaInfectados2/>
+        <button>Descargar Tabla</button>
 
         
         </>
